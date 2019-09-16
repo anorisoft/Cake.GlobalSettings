@@ -4,4 +4,4 @@
 // Author: Martin Egli
 // Description: The file makes it possible to centrally control the cake process of all repositories.
 
-#load nuget:?package=Anori.Cake.Recipe&version=1.1.0
+#load nuget:?package=Anori.Cake.Recipe&version=1.2.2
