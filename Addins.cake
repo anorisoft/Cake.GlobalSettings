@@ -4,11 +4,11 @@
 // Author: Martin Egli
 // Description: The file makes it possible to centrally control the cake process of all repositories.
 
-#load nuget:?package=Anori.Cake.Recipe&version=1.2.11
+#load nuget:?package=Anori.Cake.Recipe&version=1.2.12
 
 public static class GlobalSettings
 {
-    public static string Version { get; private set; } = "1.2.11";
+    public static string Version { get; private set; } = "1.2.12";
 
     public static void PrintGlobalSettings(ICakeContext context)
     {
