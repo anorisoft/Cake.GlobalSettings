@@ -10,7 +10,7 @@ public static class GlobalSettings
 {
     public static string Version { get; private set; } = "1.2.10";
 
-    public static void PrintParameters(ICakeContext context)
+    public static void PrintGlobalSettings(ICakeContext context)
     {
         	
 		if (context == null)
